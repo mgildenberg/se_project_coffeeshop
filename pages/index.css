@@ -23,18 +23,17 @@
   background-repeat: no-repeat;
 }
 
-.header__title {
+.header__title_span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
   max-width: 729px;
-  margin-bottom: 28px;
 }
 
-.header__title::after {
-  content: "in the Practicum Library";
+.header__title {
+  /* content: "in the Practicum Library"; */
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -42,6 +41,7 @@
   line-height: 72px;
   max-width: 729px;
   color: #000000;
+  margin-bottom: 28px;
 }
 
 .logo {
