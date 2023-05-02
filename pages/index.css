@@ -5,7 +5,6 @@
   line-height: 20px;
   margin: 0 auto;
   background-color: #ffffff;
-  /* font-family: "Noto-Serif", "Times New Roman", serif; */
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -15,22 +14,13 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  padding: 30px 80px 0;
+  padding: 30px 80px 0 80px;
   position: relative;
   box-sizing: border-box;
   background-image: url("../images/background_header.svg");
   background-size: cover;
   background-repeat: no-repeat;
-}
-
-.header__title_span-accent {
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: italic;
-
-  font-size: 60px;
-  line-height: 72px;
-  color: #2f80ed;
-  max-width: 729px;
+  z-index: 0;
 }
 
 .header__title {
@@ -41,6 +31,18 @@
   max-width: 729px;
   color: #000000;
   margin-bottom: 28px;
+  z-index: 1;
+}
+
+.header__title_span-accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+  max-width: 729px;
+  margin-bottom: 0;
+  z-index: 1;
 }
 
 .logo {
@@ -85,6 +87,7 @@
   max-width: 646px;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__description {
@@ -92,33 +95,34 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
-  margin-top: 28px;
   margin-bottom: 0;
+  z-index: 2;
 }
 
 .header__footer {
-  position: absolute;
-  left: 0;
-  bottom: 40px;
-  width: 100%;
   display: flex;
   align-items: flex-end;
-  padding: 0 80px 0;
   justify-content: space-between;
+  position: absolute;
   box-sizing: border-box;
+  padding-right: 80px;
+  bottom: 40px;
+  width: 100%;
 }
 
-.header__footer_paragraph {
-  font-family: "Inter", Arial, sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+.header__paragraph {
+  display: flex;
+  flex-direction: column;
   color: #6f6f6f;
 }
 
-/* .header__footer_paragraph_text {
-  margin: 0 auto;
-} */
+.header__paragraph:last-of-type {
+  margin-right: 80px;
+}
+
+.header__paragraph_text {
+  margin: 0;
+}
 
 .recipes {
   background-color: #0a2750;
