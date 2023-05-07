@@ -15,9 +15,11 @@
   padding-bottom: 16px;
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  width: 100%;
   align-items: baseline;
   margin: 0;
+  /* flex-grow: 0; */
 }
 
 .card__list-item:last-of-type {
@@ -28,7 +30,9 @@
   border-bottom: 1px solid #838383;
   /* border-left: 5px;
   border-right: 4px; */
-  flex-grow: 2;
+  flex-grow: 1;
+  margin-left: 4px;
+  margin-right: 4px;
   /* margin-left: 1px; */
   /* margin-right: 2px; */
 }
