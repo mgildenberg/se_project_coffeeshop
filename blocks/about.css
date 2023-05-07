@@ -34,14 +34,6 @@
 }
 
 .about__circle_animation_blurred {
-  margin: auto;
-  height: 426px;
-  width: 426px;
-  background-color: #2f80ed;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px;
   z-index: 1;
   animation: pulsate 1.3s ease-in-out infinite;
 }
