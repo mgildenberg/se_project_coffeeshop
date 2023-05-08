@@ -22,7 +22,7 @@
   z-index: 1;
 }
 
-.header__title_span-accent {
+.header__span-accent {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 60px;
@@ -68,7 +68,7 @@
   /* width: 100%; */
 }
 
-.header__paragraph {
+.header__paragraph-container {
   display: block;
   /* flex-direction: column; */
   /* justify-content: space-evenly; */
@@ -76,7 +76,7 @@
   /* padding-right: 80px; */
 }
 
-.header__paragraph_text {
+.header__paragraph {
   margin: 0;
 }
 
