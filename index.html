@@ -30,18 +30,16 @@
             class="logo"
           />
           <ul class="nav__links">
-            <li><a class="nav__link" href="#menu">Menu</a></li>
             <li><a class="nav__link" href="#recipes">Recipes</a></li>
             <li>
               <a class="nav__link" href="#book-a-table">Book a table</a>
             </li>
+            <li><a class="nav__link" href="#menu">Menu</a></li>
             <li><a class="nav__link" href="#contacts">Contacts</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__span-accent" style="display: block"
-            >Specialty coffee</span
-          >
+          <span class="header__span-accent">Specialty coffee</span>
           in the Practicum Library
         </h1>
         <p class="header__description">
@@ -78,8 +76,6 @@
               <iframe
                 id="ytplayer-aeropress"
                 class="recipes__iframe"
-                width="480"
-                height="273"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 allowfullscreen
               ></iframe>
@@ -92,8 +88,6 @@
               <iframe
                 id="ytplayer-french-press"
                 class="recipes__iframe"
-                width="480"
-                height="273"
                 src="https://www.youtube.com/embed/st571DYYTR8"
                 allowfullscreen
               ></iframe>
@@ -153,7 +147,7 @@
               <button type="submit" class="form__button">Book a table</button>
             </fieldset>
             <fieldset class="form__fieldset">
-              <label for="terms" class="form__label form__label_checkbox">
+              <label for="terms" class="form__label form__label_type_checkbox">
                 <input
                   class="form__checkbox"
                   type="checkbox"
@@ -167,13 +161,13 @@
         </section>
         <section class="menu" id="menu">
           <h2 class="menu__title">Menu</h2>
-          <h3 class="menu__subtitle">
+          <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
             use biodegradable cups. All teas from our collection are $2/cup.
-          </h3>
+          </p>
           <div class="menu__cards">
             <div class="card">
-              <div class="card__title">Filter</div>
+              <h3 class="card__title">Filter</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Regular (12 oz)
@@ -203,7 +197,7 @@
               </ul>
             </div>
             <div class="card">
-              <div class="card__title">Espresso</div>
+              <h3 class="card__title">Espresso</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Macchiato
@@ -228,7 +222,7 @@
               </ul>
             </div>
             <div class="card">
-              <div class="card__title">Baked Goods</div>
+              <h3 class="card__title">Baked Goods</h3>
               <ul class="card__list">
                 <li class="card__list-item">
                   Almond Croissant
@@ -320,6 +314,5 @@
         <p class="footer__copyright">© 2023 Maddie Gildenberg</p>
       </footer>
     </div>
-    <script src="index.js"></script>
   </body>
 </html>

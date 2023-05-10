@@ -1,14 +1,13 @@
 .nav {
   display: flex;
   justify-content: flex-end;
-  padding-bottom: 150px;
   padding-left: 0;
 }
 
 .nav__link {
   display: flex;
   flex-direction: row;
-  color: #000000;
+  color: #000;
   text-decoration: none;
   transition: color 0.3s ease-in;
 }
@@ -19,7 +18,7 @@
 
 .nav__links {
   display: flex;
-  margin: 8px 0 0;
+  margin: 0;
   list-style-type: none;
   column-gap: 20px;
   padding-left: 0;

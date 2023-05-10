@@ -13,7 +13,7 @@
 .about {
   background-color: #0a2850;
   color: #ffffff;
-  padding: 119px 80px 173px 80px;
+  /* padding: 100px 80px 173px 80px; */
   display: flex;
   position: relative;
   justify-content: space-between;
@@ -43,24 +43,32 @@
   margin: 0;
   font-weight: 500;
   font-family: inherit;
-  font-style: normal;
   font-size: 44px;
   line-height: 52px;
   z-index: 2;
-  position: relative;
+  margin: 100px 0 0 80px;
+  /* padding-top: 100px; */
+
+  /* position: absolute; */
 }
 
 .about__content {
   max-width: 660px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
-  font-weight: normal;
   line-height: 30px;
+  /* padding-top: 119px; */
+  margin: 119px 80px 173px auto;
 }
 
 .about__paragraph {
   margin-bottom: 20px;
   margin-top: 0px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .about__paragraph:last-of-type {
