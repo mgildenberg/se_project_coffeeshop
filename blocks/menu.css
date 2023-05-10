@@ -15,7 +15,7 @@
   font-family: inherit;
   font-weight: 500;
   font-size: 44px;
-  line-height: 30px;
+  line-height: 52px;
   max-width: 780px;
   padding-bottom: 24px;
   text-align: center;
@@ -37,11 +37,12 @@
 }
 
 .menu__cards {
-  gap: 100px 100px;
+  gap: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   padding-top: 0;
   align-items: flex-start;
 }
